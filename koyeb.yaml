@@ -5,7 +5,7 @@ services:
     ports:
       - 5000
     routes:
-      - path: "/"
+      - path:"/"
     build:
       type: docker
       dockerfile: ./Dockerfile
